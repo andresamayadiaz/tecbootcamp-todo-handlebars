@@ -1,0 +1,5 @@
+<div id="Todos">
+    {{#each todos}}
+        {{> todo id=this._id name=this.name done=this.done}}
+    {{/each}}
+</div>

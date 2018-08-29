@@ -1,0 +1,7 @@
+<form method="POST" action="/todo/{{id}}">
+    <div class="panel-block">
+        <input type="hidden" name="name" value="{{name}}" />
+        <input type="checkbox" {{#if done}}checked="checked"{{/if}} onChange="this.form.submit();" />
+        {{name}}
+    </div>
+</form>

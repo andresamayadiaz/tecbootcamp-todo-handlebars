@@ -1,0 +1,11 @@
+{
+    "development": {
+        "url": "mongodb://localhost:27017/bootcamptodo"
+    },
+    "test": {
+        "url": "mongodb://tecbootcamp3:bootcamp123@ds233452.mlab.com:33452/tecbootcamp"
+    },
+    "production": {
+        "url": "mongodb://tecbootcamp3:bootcamp123@ds233452.mlab.com:33452/tecbootcamp"
+    }
+}
