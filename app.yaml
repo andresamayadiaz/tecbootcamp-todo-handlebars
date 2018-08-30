@@ -1,5 +1,5 @@
 env: standard
-service: handlebars
+service: default
 runtime: nodejs8
 instance_class: B1
 manual_scaling:
